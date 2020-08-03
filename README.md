@@ -27,10 +27,10 @@ Creation, for example to access the ClassSchedule API:
 
 Send request to get Terms:
 ```ruby
-response = @api.sendRequest('')
+response = @api.send_request('')
 ```
 
 Send request to get Schools:
 ```ruby
-response = @api.sendRequest('/' + termcode + "/Schools")
+response = @api.send_request('/' + termcode + "/Schools")
 ```
